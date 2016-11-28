@@ -22,7 +22,7 @@ namespace DeployMe.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.Null(result);
+            Assert.IsNull(result);
         }
 
         [TestMethod]
